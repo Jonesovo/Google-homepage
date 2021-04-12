@@ -63,7 +63,7 @@ section .main {
 
 }
 section .google {
-    margin-top: 120px ;
+    margin-top: 110px ;
 }
 
 section .main .searchBox {
@@ -125,8 +125,9 @@ section .main .languages {
 
 section .main .languages li {
     list-style: none;
-    margin: 0.5px;
+    margin: 2.5px;
     font-size: 13px;
+    
     
 }
 section .main .languages li a {
@@ -145,6 +146,14 @@ section .footer {
     left: 0;
     width: 100%;
     background: #f2f2f2;
+}
+
+@media screen and (max-width;767){
+    section .footer .row.row2 ul li a {
+    display: flex;
+    flex-direction: row;
+}
+
 }
 
 section .footer .row {
